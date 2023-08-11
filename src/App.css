@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+Body {
+  background-image: url(../public/Tsastbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.custom-toast {
+  background: #0b89d2;}

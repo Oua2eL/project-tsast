@@ -1,0 +1,96 @@
+.create-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        99.13deg,
+        rgba(0, 173, 238, 0.312) -1.42%,
+        rgba(34, 63, 153, 0.429) 95.87%
+      );
+}
+.ADD{
+  height: 31.3rem;
+}   
+  
+.create-container form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .create-container h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  .create-container
+  input[type="text"],
+  input[type="date"],
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  .create-container button {
+    padding: 19px 39px 18px 39px;
+    color: #fffefe;
+    background-color: #1828b3;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+
+  @media screen and (max-width: 480px) {
+    .create-container {
+        display: flex;
+        flex-direction: column;
+    }
+    form {
+      max-width: 480px;
+    }
+  
+  }
+  

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Rubik:wght@500&display=swap');
+
+.policy-container {
+    margin: 50px;
+}
+
+.policy-intro h5 {
+    color: #00adee;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.policy-intro h3 {
+    color: rgba(11, 120, 196, 1);
+    font-size: 64px;
+    margin-bottom: 3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.policy-intro p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.policy-title {
+    color: rgba(11, 120, 196, 1);
+    font-size: 32px;
+    margin-bottom: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.policy-p p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.policy-p span {
+    color: #00adee;
+}

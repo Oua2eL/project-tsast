@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lilita+One&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=REM:wght@500&display=swap");
+
+.Blog-Container {
+  margin: 50px;
+}
+.Blog {
+  color: #00adee;
+  font-size: 96px;
+  font-family: "REM", sans-serif;
+  text-transform: uppercase;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Blog-text {
+  color: rgba(0, 173, 238, 1); ;
+}
+
+.Blog-text p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.Blog-img {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Blog-img img {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Blog-img img {
+    display: block;
+    margin: 0 auto; 
+  }
+}
+
+

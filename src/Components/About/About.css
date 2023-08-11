@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=REM:wght@500&display=swap");
+
+.About-Container {
+  margin: 50px;
+}
+.About-intro {
+  display: flex;
+  align-items: center;
+}
+
+.About-title {
+  color: rgba(0, 173, 238, 1);
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "REM", sans-serif;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.About-intro span {
+  color: rgba(0, 173, 238, 1);
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "REM", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.About-intro p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.About-p2 p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+}
+
+.offer-title h1 {
+  color: #fff;
+  font-size: 94px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.offer-box {
+  background-color: #0e71bf;
+  width: 363px;
+  height: 312px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.offer-icon {
+  color: #fff;
+}
+
+.offer-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+.offer-icon {
+  font-size: 100px;
+}
+
+.websites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.websites span {
+  color: #00adee;
+  font-size: 35px;
+}
+
+.websites p {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.ecommerce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.ecommerce span {
+  color: #00adee;
+  font-size: 35px;
+}
+
+.ecommerce p {
+  font-size: 24px;
+}
+
+.webMobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.webMobile span {
+  color: #00adee;
+  font-size: 35px;
+}
+
+.webMobile p {
+  font-size: 24px;
+}
+@media screen and (max-width: 480px) {
+  .about-logo img {
+    max-width: 300px;
+    margin-bottom: 5rem;
+  }
+
+  .About-title h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .About-intro {
+    flex-direction: column;
+  }
+
+  .About-title {
+    font-size: 36px;
+  }
+
+  .About-intro span {
+    font-size: 36px;
+  }
+
+  .About-intro p {
+    font-size: 18px;
+  }
+
+  .About-p2 p {
+    font-size: 18px;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .offer-title h1 {
+    font-size: 64px;
+  }
+
+  .offer-container {
+    flex-direction: column;
+  }
+
+  .offer-icon {
+    font-size: 50px;
+  }
+
+  .websites span,
+  .ecommerce span,
+  .webMobile span {
+    font-size: 24px;
+  }
+
+  .websites p,
+  .ecommerce p,
+  .webMobile p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .About-title {
+    font-size: 40px;
+    text-align: center;
+  }
+  .About-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .About-intro p {
+    font-size: 20px;
+  }
+  .About-intro img {
+    width: 250px;
+  }
+  .offer-title h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .offer-box {
+    width: 300px;
+  }
+}

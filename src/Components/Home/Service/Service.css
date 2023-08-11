@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+.Service-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.Service-intro h2 {
+  color: white;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.Service-intro h3 {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.Marketing-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.Marketing-left h3 {
+  color: #0b89d2;
+  font-size: 48px;
+  margin-bottom: 3rem;
+}
+
+.Marketing-left h4 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.service-box h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 17px;
+  background: linear-gradient(
+    99.13deg,
+    rgba(0, 173, 238, 0.312) -1.42%,
+    rgba(34, 63, 153, 0.429) 95.87%
+  );
+  color: #0b89d2;
+  width: 392px;
+  height: 61px;
+}
+
+.Marketing-right h3 {
+  color: #0b89d2;
+  font-size: 48px;
+  margin-bottom: 3rem;
+}
+
+.Marketing-right h4 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .Service-intro h3 {
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+  }
+
+  .Service-intro h2 {
+    text-align: center;
+    font-size: 35px;
+    align-items: center;
+  }
+
+  .Marketing-container .Marketing-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Marketing-left h4 {
+    font-size: 30px;
+  }
+  .Marketing-left img {
+    width: 300px;
+  }
+  .Marketing-right img {
+    width: 300px;
+  }
+  .Marketing-container .Marketing-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Marketing-right h3 {
+    font-size: 40px;
+  }
+  .Marketing-right h4 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Service-intro h3 {
+    text-align: center;
+    align-items: center;
+  }
+  .Marketing-container .Marketing-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Marketing-container .Marketing-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+    .Service-intro h3 {
+        text-align: center;
+        align-items: center;
+      }
+}
